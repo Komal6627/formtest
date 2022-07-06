@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+</head>
+<body>
+    <div>
+        <form>
+            <h1 class="text-red-500 text-2xl text-center font-semibold m-5">Employee Registration Form</h1>
+            <div class="text-center">
+                <input type="radio" id="mr"  name="pre" >
+                <label for="mr">Mr</label>
+                <input type="radio" id="mrs"  name="pre">
+                <label for="mrs">Mrs</label>
+                <input type="radio" id="ms"  name="pre">
+                <label for="ms">Ms</label>
+            </div>
+
+            <div class="flex flex-col text-center">
+                <div class="m-1">
+                    <label for="fname" >First Name</label>
+                    <input type="text" id="fname" placeholder="First Name" class="border-solid border-2 border-gray-200 ml-10">
+                </div>
+
+                <div class="m-1">
+                    <label for="lname" >Last Name</label>
+                    <input type="text" id="lname" placeholder="Last Name" class="border-solid border-2 border-gray-200 ml-10">
+                </div>
+
+                <div class="m-1">
+                    <label for="mail1" >Mail Address 1</label>
+                    <input type="text" id="mail1"  class="border-solid border-2 border-gray-200 ml-4">
+                </div>
+
+                <div class="m-1">
+                    <label for="mail2" >Mail Address 2</label>
+                    <input type="text" id="mail2"  class="border-solid border-2 border-gray-200 ml-4">
+                </div>
+
+                <div class="ml-1">
+                    <label for="city" class="mr-20">City</label>
+                    <input type="text" id="city"  class="border-solid border-2 border-gray-200 ml-3">
+                </div>
+               
+                <div class="ml-1">
+                    <label for="state" class="mr-20">State</label>
+                    <select name="state" id="state" class="ml-20">
+                        <option value="">Gujarat</option>
+                        <option value="">Maharashtra</option>
+                    </select>
+                </div>
+                
+                <div class="ml-1">
+                    <label for="city" class="mr-20">Zip</label>
+                    <input type="text" id="city"  class="border-solid border-2 border-gray-200 ml-3">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
